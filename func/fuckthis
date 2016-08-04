@@ -1,0 +1,17 @@
+header {                    
+         module = dictation         
+         title = "Crack yo cabbage" 
+         version = "3.19.7"         
+       }
+
+question {
+  name = "fuckthis"
+  tempo = 120/4
+  breakpoints = 4/4
+  music = rvoice("""
+    \time 4/4
+    \key f \major
+    c4 c | c c | c c | c c | 
+  """)
+}
+

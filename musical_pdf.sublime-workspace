@@ -1,0 +1,1521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"oc",
+				"octave_maps	statement"
+			],
+			[
+				"ra",
+				"random	statement"
+			],
+			[
+				"pa",
+				"params_file	param"
+			],
+			[
+				"pr",
+				"print_template	function"
+			],
+			[
+				"prin",
+				"print_chain	function"
+			],
+			[
+				"ge",
+				"get_header	function"
+			],
+			[
+				"t",
+				"time	statement"
+			],
+			[
+				"setcol",
+				"setColorTable	function"
+			],
+			[
+				"hs",
+				"hstack	function"
+			],
+			[
+				"QCom",
+				"QComboBox	class"
+			],
+			[
+				"n",
+				"num	param"
+			],
+			[
+				"sum",
+				"sum_vert	statement"
+			],
+			[
+				"su",
+				"sum_vert	statement"
+			],
+			[
+				"ran",
+				"randint	function"
+			],
+			[
+				"filt",
+				"filter_staff	statement"
+			],
+			[
+				"a",
+				"all_pages	statement"
+			],
+			[
+				"all",
+				"all_pages	statement"
+			],
+			[
+				"grid",
+				"gridDim"
+			],
+			[
+				"gr",
+				"dimGrid"
+			],
+			[
+				"blo",
+				"blockNumInGrid"
+			],
+			[
+				"dim",
+				"dimBlock"
+			],
+			[
+				"__",
+				"__syncthreads"
+			],
+			[
+				"C",
+				"Cvalue"
+			],
+			[
+				"thre",
+				"threadsPerBlock"
+			],
+			[
+				"N",
+				"N"
+			],
+			[
+				"for",
+				"forward	statement"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"M",
+				"M"
+			],
+			[
+				"cnt",
+				"cnts"
+			],
+			[
+				"cn",
+				"cnts"
+			],
+			[
+				"id",
+				"idxs"
+			],
+			[
+				"idx",
+				"idxsFile"
+			],
+			[
+				"cntsF",
+				"cntsFile"
+			],
+			[
+				"cnts",
+				"cntsFile"
+			],
+			[
+				"covs",
+				"covsFile"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"test",
+				"testPyAudio"
+			],
+			[
+				"y",
+				"y_R"
+			],
+			[
+				"Dm",
+				"Dm"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "func/gen_solfege.py",
+			"settings":
+			{
+				"buffer_size": 5354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "func/octave_maps.py",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Unix",
+				"name": "octave_maps = dict()"
+			}
+		},
+		{
+			"contents": "header {                    \n         module = dictation         \n         title = \"123\"              \n         version = \"3.19.7\"         \n       }\n\nquestion {                         \n           name = \"Orient\"                    \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c'2 c | c4 e c g' | c, e g c | \n             c2 c | c4 e c g' | c, e g c |   \n           \"\"\")                               \n         }\n\nquestion {                         \n           name = \"Scale\"                     \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c2 c | c d e f | g a b c |       \n             c2 c | c d e f | g a b c |       \n           \"\"\")                               \n         }\n\n\nquestion {\n  name = \"Chain 0\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e g e d | d d d d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 1\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e e e | e g g e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 2\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e g e c | c g, c' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 3\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' e d e | g c' c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 4\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e d c g, | e g g c' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 5\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g, c' d | e c g, e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 6\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g, c' g, | c' d e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 7\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' e g c' | g, g e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 8\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' g c' c | e g c' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 9\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e c g, | g g e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 10\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d d c | g, e e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 11\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' g e d | e e e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 12\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e c d | d e c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 13\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e c d e | c e e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 14\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' e g g | c' c c c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 15\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c d c | e d e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 16\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' c' g, c' | d c c e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 17\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' c' d c | c g, c' d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 18\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e g e c | e g c' c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 19\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c g, | e g e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 20\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c e c | c e g c' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 21\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g, e c | e e c e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 22\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g, c' e | g c' g, e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 23\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e c c d | c g, e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 24\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c g, c' | c g, e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 25\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c e c | c g, e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 26\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e c g, c' | g, e d c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 27\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c c c | c c d c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 28\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' c' e d | e g c' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 29\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c e | d e c e | \n  \"\"\")\n}\n\n\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 6218,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "header {                    \n         module = dictation         \n         title = \"123\"              \n         version = \"3.19.7\"         \n       }\n\nquestion {                         \n           name = \"Orient\"                    \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c'2 c | c4 e c g' | c, e g c | \n             c2 c | c4 e c g' | c, e g c |   \n           \"\"\")                               \n         }\n\nquestion {                         \n           name = \"Scale\"                     \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c2 c | c d e f | g a b c |       \n             c2 c | c d e f | g a b c |       \n           \"\"\")                               \n         }\n\n\nquestion {\n  name = \"Chain 0\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' c, d c | e g e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 1\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' g g | e c c c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 2\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e g c, | d c e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 3\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e c e | c g' c, d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 4\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e c g' g | c, g' c, e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 5\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d d e | c g' g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 6\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' e c | d e g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 7\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' e c | d e g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 8\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' c, e g | c, e c c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 9\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' e c c | g' e g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 10\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c d | d c g' c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 11\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c g' c, | d e d d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 12\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' e c g' | c, c e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 13\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e e e c | g' e g e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 14\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' c, c | g' g e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 15\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' c, e | c d c c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 16\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e c e | d e e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 17\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c c e | g e e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 18\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d e c | c c e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 19\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d e g | e e c c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 20\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e c g' | g g e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 21\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e c e | d c d e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 22\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' e g | e e e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 23\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e e e g | c, e c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 24\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e g e | c g' c, d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 25\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e d d d | d c c g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 26\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' c, g' g | c, d e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 27\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' g g e | c d e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 28\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c e | c d e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 29\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g' c, d e | d e c c | \n  \"\"\")\n}\n\n\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 6215,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "header {                    \n         module = dictation         \n         title = \"123\"              \n         version = \"3.19.7\"         \n       }\n\nquestion {                         \n           name = \"Orient\"                    \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c'2 c | c4 e c g' | c, e g c | \n             c2 c | c4 e c g' | c, e g c |   \n           \"\"\")                               \n         }\n\nquestion {                         \n           name = \"Scale\"                     \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c2 c | c d e f | g a b c |       \n             c2 c | c d e f | g a b c |       \n           \"\"\")                               \n         }\n\n\nquestion {\n  name = \"Chain 0\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e e c c | e d d d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 1\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' c, d | d c d e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 2\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' c, c | d c c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 3\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' g c, | e g c, c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 4\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c g' | g c, e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 5\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e d e d | e g c, g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 6\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d e e | g g g e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 7\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, e c e | e d e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 8\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c e | e g c, c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 9\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' c, e | e d d c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 10\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, c, d d | e g g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 11\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, c, c e | g e g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 12\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e d e d | e c g' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 13\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c e | d c e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 14\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e e e g | e d c c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 15\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, c, e c | c g' e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 16\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' e c | g' g e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 17\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, c, d d | d e e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 18\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c d c g' | e g e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 19\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e g e | c d c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 20\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e c e | e g c, c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 21\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, e c e | e c g' c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 22\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c e g c, | g' c, d e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 23\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c g' c, e | c e d c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 24\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, c, g' c, | g' c, g' c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 25\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, c, e g | e d c e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 26\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e e g c, | d c g' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 27\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g, e d d | d d d e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 28\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c c d d | e c c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 29\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e e c e | e g e g | \n  \"\"\")\n}\n\n\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 6219,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "header {                    \n         module = dictation         \n         title = \"123\"              \n         version = \"3.19.7\"         \n       }\n\nquestion {                         \n           name = \"Orient\"                    \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c'2 c | c4 e c g' | c, e g c | \n             c2 c | c4 e c g' | c, e g c |   \n           \"\"\")                               \n         }\n\nquestion {                         \n           name = \"Scale\"                     \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c2 c | c d e f | g a b c |       \n             c2 c | c d e f | g a b c |       \n           \"\"\")                               \n         }\n\n\nquestion {\n  name = \"Chain 0\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d e g | g c, e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 1\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' g c, | g' c, g' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 2\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g,4 c, e g | c, e c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 3\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 c d c | e d e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 4\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 d c d | e d e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 5\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e c d | e g e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 6\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' e d | c d e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 7\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 c g' e | g c, g' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 8\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e e c | g' e g e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 9\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e g c, | c g' c, g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 10\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g,4 c, c c | c d c e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 11\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d c g' | e c g' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 12\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' g e | c g' e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 13\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 g e d | e c e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 14\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' g c, | d c e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 15\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d c d | c d e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 16\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 g c, e | d e c g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 17\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g,4 e c e | d c c e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 18\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' e g | c, c e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 19\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 c e c | g' g g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 20\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' e g | c, c e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 21\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d d c | e d c d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 22\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' e g | e g e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 23\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d d c | g' c, e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 24\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 c g' e | g e g g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 25\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 c d e | d c d d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 26\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 g c, c | c g' e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 27\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d d e | g e c g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 28\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d c g' | c, g' c, g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 29\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d e g | e e e g | \n  \"\"\")\n}\n\n\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 6244,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "header {                    \n         module = dictation         \n         title = \"123\"              \n         version = \"3.19.7\"         \n       }\n\nquestion {                         \n           name = \"Orient\"                    \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c'2 c | c4 e c g' | c, e g c | \n             c2 c | c4 e c g' | c, e g c |   \n           \"\"\")                               \n         }\n\nquestion {                         \n           name = \"Scale\"                     \n           tempo = 120/4                      \n           breakpoints = 4/4, 8/4, 12/4, 16/4 \n           music = rvoice(\"\"\"                 \n             \\time 4/4                       \n             \\key c \\major                    \n             c2 c | c d e f | g a b c |       \n             c2 c | c d e f | g a b c |       \n           \"\"\")                               \n         }\n\n\nquestion {\n  name = \"Chain 0\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g'4 e c e | g e g c, | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 1\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 d c d | c e g e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 2\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g'4 e g g | e e g e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 3\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 g g c, | g' e e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 4\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 c g' e | e g e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 5\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 c d c | g' g e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 6\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e c g' | e c e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 7\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e c g' | e d e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 8\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' e g | g e g e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 9\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' c, e | c d e e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 10\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 c d e | g e d c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 11\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e d d | e g c, g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 12\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e d c | e c d e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 13\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 g c, d | e d c c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 14\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g'4 c, e d | c d e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 15\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 c g' e | g e d e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 16\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' e c | d c c e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 17\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 e c g' | c, e c e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 18\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 c c e | c e e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 19\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g'4 c, e d | e c e d | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 20\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d c e | g c, c g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 21\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 g g g | e g c, g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 22\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 c e e | e c g' g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 23\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 g' c, d | c d c g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 24\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 d d e | g e e c | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 25\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | e4 c e g | e c c g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 26\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | c4 d e c | e c g' e | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 27\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g'4 g g c, | e e c g' | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 28\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g'4 c, e d | c g' e g | \n  \"\"\")\n}\n\n\nquestion {\n  name = \"Chain 29\"\n  tempo = 120/4\n  breakpoints = 4/4, 8/4\n  music = rvoice(\"\"\"\n    \\time 4/4\n    \\key c \\major\n    c'2 c | g'4 c, c d | e g c, e | \n  \"\"\")\n}\n\n\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 6239,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import numpy",
+			"import networkx",
+			"ls",
+			"save project",
+			"@store_index",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/midi_utils/scripts/data",
+		"/home/mukunar1/.solfege/exercises/user/lesson-files"
+	],
+	"file_history":
+	[
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/nn_gt_ui.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/gen_solfege.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/create_params.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/lily/test_ly.ly",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/midi_utils/scripts/data/simple.ly",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/midi_utils/scripts/data/cabbage",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/midi_utils/scripts/data/simple2.ly",
+		"/home/mukunar1/.solfege/exercises/user/lesson-files/fuckthis",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/midi_utils/scripts/data/simple3.ly",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/elems.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/dictation.py",
+		"/home/mukunar1/.solfege/exercises/user/lesson-files/cabbage",
+		"/home/mukunar1/.solfege/exercises/user/lesson-files/cuss",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/musicdisplayer.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/parser.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/nn_label_staff.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/dict_tests.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/dict_tests.py",
+		"/home/mukunar1/workspace/coursework/sam/code/task2/task2.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/func_filter.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/test_pickle.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/fsd.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/list_data.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/all_pages_train.txt",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/is_staff.txt",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/all_pages.txt",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/nn_label_staff.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/func/basic_example.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/show_dataset.py",
+		"/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/temp/load_names.py",
+		"/home/mukunar1/workspace/music/pdfRhyder/clean attempt/utils_rhyder.py",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/multShare.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/tests/cuda_tests/cuda_test_3.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/tests/cuda_tests/cuda_test_4.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/tests/cuda_tests/refr.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_cuda/get_dist_cuda_4.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_cuda/get_dist_cuda_3.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_cuda/get_dist_cuda.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_cuda/get_dist_cuda_2.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_cuda/get_dist_cuda_1.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/scripts/startup.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_cuda/assign_g.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/scripts/Make.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/tests/cuda_tests/cuda_test_simple.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_cuda/deviceQuery.cpp",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/shared_memory_info.txt",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/test1.sh",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/sftp-config.json",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/nash.json",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/config/sftp-config.json",
+		"/home/mukunar1/nash.json",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/scripts/km34n5_128d.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/README.md",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/Doxyfile",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_c/s_calc_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_c/c_calc_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_c/assign_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_c/get_dist_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/scripts/km34n5_2d.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/scripts/km34n5_correctness.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/tests/c_tests/c_test_simple.m",
+		"/home/mukunar1/workspace/tests/doxy/classDocumentationExample.m",
+		"/home/mukunar1/workspace/tests/doxy/documentationGuidelines.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/tests/gen_simple.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/scripts/km34n5_8d.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_matlab/get_p_c.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_matlab/get_p_m.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test_backup/prelim/test_both_test.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test_backup/prelim/test_correctness.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test_backup/prelim/func_cuda/assign_g.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/mex_cuda.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/func_matlab/pca_plot.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/kmeans_wt/newNewTests/runTests_mod.py",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/assign/scripts/make_it.py",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/Makefile",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_8d.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/get_dist_cuda.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_128d_temp.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_128d.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_matlab/pca_plot.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_correctness.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/assign_g.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_both_test.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_both_c_g.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_both.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/multNoShare.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/multShare.h",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_c/assign_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_matlab/assign_m.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_dist.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_matlab/get_dist_matlab.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/test_diff_cuda.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/assign_cuda.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/test_c.c",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/matlab/fvec_read.m",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/matlab/yael_L2sqr.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_cuda/time_mex_cuda.m",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/matlab/Make.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_c/c_calc_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_c/s_calc_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/func_c/c_calc_c_2d.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/assign_c_2d.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/assign_m.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/s_calc_m.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/c_calc_m.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/get_p_m.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/get_p.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_cuda.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/multShare.h",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/multShare.cu",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/p_calc_m.m",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/c_calc_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/p_calc_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/assign_c.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_write_read.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_py.py",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/progs/fvecfile.c",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/yael/sorting.c",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/matlab/yael_kmin.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/assign_.mexa64",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/yael/nn.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_mex.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test_basemex.c",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/matlab/yael_L2sqr.c",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/prelim/test1.cpp",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/progs/Makefile",
+		"/home/mukunar1/workspace/prague/fromRemote/dropHalfCovs/fromLascar/gpu_assign/test/Makefile",
+		"/home/mukunar1/workspace/yael_mod/yael_v438/yael/Makefile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"[0]",
+			"[n]",
+			"1",
+			"-1,",
+			"+1",
+			"[n]",
+			"seq[i]",
+			"self.seq[i].emit",
+			"1+",
+			"-2",
+			"seq[i]",
+			"i",
+			"+1",
+			"-1",
+			"octave_maps",
+			" 0",
+			"0",
+			"octave_maps",
+			"Orient",
+			"e1",
+			"self.notes",
+			"self.s",
+			"   \\",
+			"fuckthis",
+			"params_file",
+			"params_file_1358",
+			"self",
+			"}\n",
+			"fuckthis",
+			"return",
+			"print",
+			"print(p.ps0)",
+			"p.",
+			"pprint",
+			"data1",
+			"pkl_file",
+			"tm",
+			"data",
+			"pkl",
+			"data",
+			"params_file",
+			"ps0",
+			"0",
+			"0,0",
+			" 0 ",
+			"0,",
+			"0",
+			"[0",
+			" \\",
+			"[0]",
+			"print_chain",
+			"print",
+			"2",
+			"1",
+			"a1",
+			".state",
+			"]]",
+			"7",
+			"K",
+			"8",
+			"n",
+			"lessonfileclass",
+			"m_t",
+			"file",
+			"3/4",
+			"None at all",
+			"n",
+			"\\",
+			"      ",
+			"%",
+			"    ",
+			"bl",
+			"themothastart",
+			" = '",
+			" = ",
+			"new",
+			"st",
+			"save",
+			"load",
+			"gt",
+			"GT",
+			"gt",
+			"getGT",
+			"edt_indx",
+			"edt_page",
+			"self.p_",
+			"p_",
+			"\"test.png\"",
+			"           ",
+			"books",
+			"min(self.N,",
+			"Next",
+			"btn_",
+			"0",
+			"500,",
+			"Qt.KeepAspect",
+			"box_ctrl.addWidget",
+			"control",
+			"hbox",
+			"d2",
+			"d1",
+			"box_ptch",
+			"page",
+			"ptch",
+			"sect",
+			"page",
+			"book",
+			"box_book",
+			"test",
+			"(\"",
+			"plt",
+			"favorite_color",
+			"max_[-1]",
+			"t",
+			"cv2.imshow('section',sec)\n  #   k = cv2.waitKey(0)\n  #   if k==1048603:\n  #     b = True\n  #   if k==1048692:\n  #     f_out.write(str(i)+':1\\n')\n  #   if k==1048678:\n  #     f_out.write(str(i)+':0\\n')\n  # if b: ",
+			"1048692",
+			"f",
+			"img",
+			"if",
+			"1048603",
+			"N",
+			"sum_vert",
+			"c",
+			"grad",
+			"image",
+			"0",
+			"1",
+			"0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "func/gen_solfege.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1199,
+								1199
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "func/octave_maps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_name": "octave_maps = dict()",
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6218,
+								6218
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_indent": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"default_dir": "/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"incomplete_sync": null,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "636eb856c20b4e0692fbdb4d7c1629e7",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 5833.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6215,
+								6215
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_indent": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"default_dir": "/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"incomplete_sync": null,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "a161d4a5e4d449368386a36a3651bcdd",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 5833.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6219,
+								6219
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_indent": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"default_dir": "/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"incomplete_sync": null,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "c094107e8fcc437d8a95ea280339a2e4",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 6139.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6244,
+								6244
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_indent": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"default_dir": "/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"incomplete_sync": null,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "7db37dd1428749a18530f1274eb8222f",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 767.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6239,
+								6239
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_indent": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"default_dir": "/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"incomplete_sync": null,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "cb764aca6e3c42eca5c74137c5550926",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 6139.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.581669290768,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "musical_pdf.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"st",
+				"~/workspace/prague/fromRemote/dropHalfCovs/2b_create_km_vocab/store_index.m"
+			],
+			[
+				"km",
+				"~/workspace/prague/fromRemote/dropHalfCovs/2b_create_km_vocab/km_master.m"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/workspace/prague/fromRemote/dropHalfCovs/fromLascar/agm_cp_single/2b_create_km_vocab/agm_cp_single.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

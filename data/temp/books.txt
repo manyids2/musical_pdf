@@ -1,0 +1,5 @@
+/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/pdfs/book_3
+/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/pdfs/book_4
+/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/pdfs/book_5
+/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/pdfs/book_2
+/home/mukunar1/workspace/wonderingEar/music_learn/musical_pdf/data/pdfs/book_1
